@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css"> 
-</head>
-
-<body>
-    <header>
-        <nav> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <header>
+          <nav>
             <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="cdPlik.html">Kolejna strona</a>
-            <a href="plik3.html">Coś tu kiedyś będzie</a>
-        </nav>
-    </header>
+            <a href="nauka-html-css.html">Nauka html i css</a>
+            <a href="nauka-js.html">Nauka js</a>
+          </nav>
+      </header>
+      
+    <main id="top"></main>
+      <h1 class="main-header">Izabela Żmujdzin- Strona domowa</h1>
+      <img src="179922934_3896889607026848_712738423520743423_n.jpg" alt="Uśmiechnięta Iza"/>
+      <section>
+        <h2> Kim jestem ? </h2>
+        <p style="color:indigo">
+          Nazywam się Iza i mam 27 lat. Jestem mamą dwóch córek Rozalii i
+          Kornelii, z wykształcenia jestem magistrem zarządzania
+          przedsiębiorstwem i tak się składa, że kilka firm już prowadziłam lub
+          pomagałam prowadzić. Obecnie robię drugie podejście do kursu WTF <a href="#notatki">Przejdź do notatek</a>,
+          prowadzę sklep internetowy
+          <a href="https://www.rokobaby.pl/">Rokobaby</a> i uczę się
+          angielskiego.
+        </p>
+      </section>
 
-    <main>
-        <header id="top">
-            <h1 class="navy-header"> Izabela Żmujdzin-strona domowa</h1>
-        </header>
+      <section id="notatki">
+        <h2>Notatki z WTF: Co ten frontend</h2>
+        <p>
+          Zaczęłam wszystko od nowa. Nawet tą stronę, ponieważ minęło dużo czasu
+          od poprzednich lekcji i chce się na nowo wszystkiego nauczyć.
+        </p>
 
-        <section>
-            <h2>Kim jestem ?</h2>
-            <img src="16463222_1221551171227385_8219794899893463585_o.jpg" alt="Uśmiechnięta Iza">
+        <article>
+          <h3>Tydzień I</h3>
+          <p>
+            Tydzień I to wprowadzenie do tego co będziemy robić i czego się
+            uczyć. Już nie mogę się doczekać!
+          </p>
+        </article>
 
-            <p> Jestem mamą dwóch pięknych córek.<i> Dwuletniej Rozalii i czteromiesięcznej Kornelii</i></p>
-            <p>Z wykształcenia menager zarządzania. Obecnie to dzieci zajmują większość mojego czasu, ale znalazłam też
-                <em>chwię</em> na naukę forntendu z kursu <a href="https://cotenfrontend.pl">WTF</a></p>
-            <p><b>Już nie mogę się doczekać efektów swojej pracy.</b><a href="#notatki">Przejdź do notatek</a></p>
-        </section>
+        <article>
+          <h3>Tydzień II</h3>
+          <p>
+            W tym tygodniu nauczyłam się podstaw HTML i dowiedziałam się czym są
+            style CSS.
+          <br>  Poznałam również takie narzędzie jak validator i codepen-do
+            podzielenia się kodem z innymi
+         <br>   Aby nie zaśmiecać HTMLa kodem CSS tworzy się oddzielny plik .css i w
+            znaczniku head wstawia link href= „style.css” rel=”stylesheet"
+            type”text/css"
+        <br> Style jakie poznałam to: color i background</p>
+        </article>
 
-        <section id="notatki">
-            <h2 class="navy-header">Notatni z WTF: Co ten frontend</h2>
-            <article>
-            <h3>Czego się nauczyłam ?</h3>
-            <p>Podstawowych informacji o HTML- czym jest, jak wygląda szkielet, kilka skrótów klawiszowych.</p>
-            <p>Informacje o CSS- odpowaida za prezentacje, wpływa na wygląd elementów HTML. Style wpisujemy w części
-                głowy.</p>
-            <p>Założyłam Trello by planować pracę i widzieć postępy-tablica z karteczkami</p>
-            <p>Robienie nawigacji na stronie i nowe znaczniki takie jak b, strong, em </p>
-            <p>Sposoby nazywnictwa - komercje tj. camelCase, kebab-case, snake_case i PascalCase</p>
-            <p>Dodawanie styli z wykorzystaniem atrybutu, id, selektorów</p>
-            <p>Kody odpowiedzi HTTP</p>
-            <p>JavaScript to nie to samo co Java. Z czego składa się JavaScript? <br> Wartości dla JS są tym samym co liczby dla matematyki</p>
-            </article>
-            <article>
-                <h3>Odrabianie prac domowych</h3>
-                <p>Miałam mały problem z odnośnikiem do skrótów, ale sobie poradziłam. Strona wyszła różowa.</p>
-                <p> Myśl jak programista- stworzyłam plan robienia prania</p>
-                <p> Tworzenie nawigacji jest fajne i proste</p>
-            </article>
-        </section>
+        <article>
+          <h3>Tydzień III</h3>
+          <p>
+            W tym tygodniu poznałam narzędzie do planowania pracy, metodę
+            KANBAN, która dzieli zadania na: todo, doing i done. DO tej metody
+            używamy programu trello. <br>Poznałam nowe znaczniki HTML tj: b, i strong, które pogrubiają, oraz
+            i, em, które pochylają. Strong i em, mają znaczenie semantyczne. <br> Nauczyłam się także robić nawigacje wewnętrzną, zewnętrzną i dodawać
+            zdjęcie. <br>Lekcja 4 dotyczyła sposobów nazewnictwa, które często sprawiają
+            sporo problemów. </p>
+          <h4>Sposoby nazewnictwa:</h4>
+          <li>camelCase</li>
+          <li>kebab-case</li>
+          <li>snake_case</li>
+          <li>PascalCase</li>
+
+          <p>Poznałam błędy kodów odpowiedzi http oraz jak działa przeglądarka.
+          <br>Pierwsza lekcja JavaScript- z czego się składa, polecenie colsole.log i zasadę, że wartości dla JS sa jak liczby dla matematyki.
+        <br>Poznałam konsolę i zasady jej działania.</p>
+        </article>
+      </section >
     </main>
     <footer>
-        Strona stworzona na potrzeby kursu WTF: Co ten frontend <a href="#top">Wróć na górę strony</a>
+      Strona domowa Izabeli Żmujdzin. Wszystkie treści są efektem nauki
+      szkolenia WTF: Co ten frontend <a href="#top">Przejdź na górę strony</a>
     </footer>
     <script src="main.js"></script>
-    </body>
-
+  </body>
 </html>

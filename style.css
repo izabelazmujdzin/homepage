@@ -1,16 +1,38 @@
-h2{
-    color: #96bfe9;
+h1 {
+    color: rgb(107, 26, 67)
 }
-body{
-    background: #a04577;
+h2 {
+    color:rgb(134, 65, 100)
 }
-h3{
-    color: #96bfe9
+h3 {
+    color:rgb(184, 129, 157)
 }
-.navy-header{
-    color: navy
+section {
+    background: rgb(250, 229, 229)
+    ;
+}
+body {
+    background: rgb(245, 231, 231);
+}
+.main-header {
+    color:coral
 }
 
-nav a{
-    color: orchid
+a {
+    color:crimson
+}
+
+nav a {
+    color: #047a9e
+}
+
+.color-background {
+    background: #925c8b
+}
+li {
+    color: #433E0E;
+}
+
+li {
+    background: #957D95;
 }
