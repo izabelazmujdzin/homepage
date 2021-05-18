@@ -4,7 +4,8 @@ h1 {
 h2 {
     color:rgb(134, 65, 100)
 }
-h3 {
+
+.third-heading {
     color:rgb(184, 129, 157)
 }
 section {
@@ -28,11 +29,4 @@ nav a {
 
 .color-background {
     background: #925c8b
-}
-li {
-    color: #433E0E;
-}
-
-li {
-    background: #957D95;
 }
