@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="box">
     <header>
       <nav>
           <a href="index.html">Strona główna</a>
@@ -16,28 +16,30 @@
   </header>
 
     <main id="top"></main>
-      <h1 class="color-background">Nauka HTML i CSS </h1>
-      <img src="7.png" alt="html"/>
+      <h1 class="section__header">Nauka HTML i CSS </h1>
+      <img class="section__img" src="7.png" alt="html"/>
 
-      <section>
-   <article>
-    <h2 class="color-background"> Ważne tagi</h2>
-    <p> Ważne tagi, o których warto pamiętać to br,b, i.
+      <section class="section">
+<article>
+    <h2 class="section__secondary-header"> Ważne tagi</h2>
+    <p class="section__pafagraph"> Ważne tagi, o których warto pamiętać to br,b, i.
     </p>
   </article>
-    <h3>Co lubię w HTMLu</h3> 
-    <p>Lubię robic nawigacje, ale jeszcze muszę poćwiczyć, aby zapamiętać regułę</p>
-    <p> Zapamiętać!- nav to główna nawigacja po stronie, którą tworzy się w headerze poza mainem</p>
+  <article>
+    <h3 class="article__third-heading">Co lubię w HTMLu</h3> 
+    <p class="section__pafagraph">Lubię robic nawigacje, ale jeszcze muszę poćwiczyć, aby zapamiętać regułę</p>
+    <p class="section__pafagraph"> Zapamiętać!- nav to główna nawigacja po stronie, którą tworzy się w headerze poza mainem</p>
+  </article>
       </section >
-      <section>
-<h3>
+      <section class="secondary-section">
+<h3 class="article__third-heading">
   Style CSS
-</h3>
-<p>
+</h3 class="article__third-heading">
+<p class="section__pafagraph">
 Styluje się za pomocą selektorów: class .(kropka), znacznik id #.<br> Strona z paletą kolorów to <a href="https://coolors.co/">coolors</a> 
 <br> Rodzaje stylów: color, background, display:block, display:inline, display:inline-block, width, height, overflow, position,
 </p>
-<h3>BEM czyli nazywanie i tworzenie klas uzywając ręki i palców: block__element--modifer</h3>
+<h3 class="article__third-heading">BEM czyli nazywanie i tworzenie klas uzywając ręki i palców: block__element--modifer</h3>
       </section>
     </main>
     <footer>

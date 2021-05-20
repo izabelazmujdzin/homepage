@@ -1,32 +1,55 @@
-h1 {
-    color: rgb(107, 26, 67)
-}
-h2 {
-    color:rgb(134, 65, 100)
+.article__third-heading {
+  color: rgb(184, 129, 157);
 }
 
-.third-heading {
-    color:rgb(184, 129, 157)
-}
-section {
-    background: rgb(250, 229, 229)
-    ;
-}
 body {
-    background: rgb(245, 231, 231);
-}
-.main-header {
-    color:coral
+  background: rgb(245, 231, 231);
 }
 
-a {
-    color:crimson
+.box {
+  background: rgba(207, 163, 186, 0.4);
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  padding: 20px 30px;
 }
 
-nav a {
-    color: #047a9e
+.section {
+  background: rgb(250, 229, 229);
+  padding: 10px 30px;
+  border-style: double;
+  border-color: rgba(77, 60, 69, 0.4);
 }
 
-.color-background {
-    background: #925c8b
+.section__header {
+  color: rgba(136, 32, 87, 0.822);
+}
+
+.section__secondary-header {
+  color: rgb(134, 65, 100);
+}
+
+.secondary-section {
+  background: rgb(250, 229, 229);
+  padding: 10px 30px;
+  border-style: double;
+  border-color: rgba(77, 60, 69, 0.4);
+  margin: 20px 0;
+}
+
+.section__img {
+  margin: 0 350px auto;
+}
+
+.section__img--iza {
+  width: 320px;
+  height: 400px;
+  margin: 0 350px auto;
+}
+.section__link {
+  color: #047a9e;
+}
+
+.section__paragraph {
+  color: rgb(53, 42, 48);
 }

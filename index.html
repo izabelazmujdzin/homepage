@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="box">
       <header>
           <nav>
             <a href="index.html">Strona główna</a>
@@ -16,39 +16,40 @@
       </header>
       
     <main id="top"></main>
-      <h1 class="main-header">Izabela Żmujdzin- Strona domowa</h1>
-      <img src="179922934_3896889607026848_712738423520743423_n.jpg" alt="Uśmiechnięta Iza"/>
-      <section>
-        <h2> Kim jestem ? </h2>
-        <p style="color:indigo">
+    
+    <section class="section">
+      <h1 class="section__header">Izabela Żmujdzin- Strona domowa</h1>
+      <img class="section__img section__img--iza" src="179922934_3896889607026848_712738423520743423_n.jpg" alt="Uśmiechnięta Iza"/>
+        <h2 class="section__secondary-header"> Kim jestem ? </h2>
+        <p class="section__pafagraph">
           Nazywam się Iza i mam 27 lat. Jestem mamą dwóch córek Rozalii i
           Kornelii, z wykształcenia jestem magistrem zarządzania
           przedsiębiorstwem i tak się składa, że kilka firm już prowadziłam lub
-          pomagałam prowadzić. Obecnie robię drugie podejście do kursu WTF <a href="#notatki">Przejdź do notatek</a>,
+          pomagałam prowadzić. Obecnie robię drugie podejście do kursu WTF <a class="section__link" href="#notatki">Przejdź do notatek</a>,
           prowadzę sklep internetowy
-          <a href="https://www.rokobaby.pl/">Rokobaby</a> i uczę się
+          <a  class="section__link" href="https://www.rokobaby.pl/">Rokobaby</a> i uczę się
           angielskiego.
         </p>
       </section>
 
-      <section id="notatki">
-        <h2>Notatki z WTF: Co ten frontend</h2>
-        <p>
+      <section class="section" id="notatki">
+        <h2 class="section__secondary-header">Notatki z WTF: Co ten frontend</h2>
+        <p class="section__pafagraph">
           Zaczęłam wszystko od nowa. Nawet tą stronę, ponieważ minęło dużo czasu
           od poprzednich lekcji i chce się na nowo wszystkiego nauczyć.
         </p>
 
         <article>
-          <h3 class="third-heading">Tydzień I</h3>
-          <p>
+          <h3 class="article__third-heading">Tydzień I</h3>
+          <p class="section__pafagraph">
             Tydzień I to wprowadzenie do tego co będziemy robić i czego się
             uczyć. Już nie mogę się doczekać!
           </p>
         </article>
 
         <article>
-          <h3 class="third-heading">Tydzień II</h3>
-          <p>
+          <h3 class="article__third-heading">Tydzień II</h3>
+          <p class="section__pafagraph">
             W tym tygodniu nauczyłam się podstaw HTML i dowiedziałam się czym są
             style CSS.
           <br>  Poznałam również takie narzędzie jak validator i codepen-do
@@ -60,8 +61,8 @@
         </article>
 
         <article>
-          <h3 class="third-heading">Tydzień III</h3>
-          <p>
+          <h3 class="article__third-heading">Tydzień III</h3>
+          <p class="section__pafagraph">
             W tym tygodniu poznałam narzędzie do planowania pracy, metodę
             KANBAN, która dzieli zadania na: todo, doing i done. DO tej metody
             używamy programu trello. <br>Poznałam nowe znaczniki HTML tj: b, i strong, które pogrubiają, oraz
@@ -74,17 +75,17 @@
          <br> snake_case
          <br> PascalCase
 
-          <p>Poznałam błędy kodów odpowiedzi http oraz jak działa przeglądarka.
+          <p class="section__pafagraph"p>Poznałam błędy kodów odpowiedzi http oraz jak działa przeglądarka.
           <br>Pierwsza lekcja JavaScript- z czego się składa, polecenie colsole.log i zasadę, że wartości dla JS sa jak liczby dla matematyki.
         <br>Poznałam konsolę i zasady jej działania.</p>
         </article>
 
         <article>
-          <h3 class="third-heading">Tydzień IV</h3>
-          <p> W tym tygodniu poznałam GITa i nauczyłam się jak commitować zmiany. Czyli tworzyć historię projektu, aby móc cofać i wiedzieć co zostało zmienione.
+          <h3 class="article__third-heading">Tydzień IV</h3>
+          <p class="section__pafagraph"> W tym tygodniu poznałam GITa i nauczyłam się jak commitować zmiany. Czyli tworzyć historię projektu, aby móc cofać i wiedzieć co zostało zmienione.
            <br> Kroki commitowania zmian zapisane mam w zeszycie
           </p>
-          <p> Kolejna lekcja dotyczyła BOX MODEL- życie w pudełku. <br> Poznałam nowe style css, któwe pozwalają na przemieszczanie elementów, ustalanie marginesów itp. czyli padding, border, margin- Dużo wiedzy.
+          <p class="section__pafagraph"> Kolejna lekcja dotyczyła BOX MODEL- życie w pudełku. <br> Poznałam nowe style css, któwe pozwalają na przemieszczanie elementów, ustalanie marginesów itp. czyli padding, border, margin- Dużo wiedzy.
           <br> 
         </p>
         </article>
