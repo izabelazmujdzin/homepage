@@ -5,15 +5,14 @@ html {
 *,*:before, *:after {
   box-sizing: inherit;
 }
+a {
+color:rgb(131, 29, 85);
+text-decoration: none;
+font-size: 18px;
+}
 
 .article__third-heading {
   color: rgb(184, 129, 157);
-}
-
-body {
-  background: rgb(142,95,118);
-background: linear-gradient(0deg, rgba(142,95,118,0.949253028848258) 5%, rgba(143,137,137,0.6747432249266894) 97%);
-  
 }
 
 .box {
@@ -22,6 +21,18 @@ background: linear-gradient(0deg, rgba(142,95,118,0.949253028848258) 5%, rgba(14
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px 30px;
+}
+
+.navigation {
+  background-color: rgb(224, 168, 187);
+  margin: 16px 0;
+  border-style: double;
+  border-color: rgba(77, 60, 69, 0.4);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+ 
 }
 
 .section {
