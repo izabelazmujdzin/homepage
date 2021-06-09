@@ -11,10 +11,15 @@ a {
 	color: rgb(131, 29, 85);
 	text-decoration: none;
 	font-size: 18px;
+	display: block;
 }
 
 .article__third-heading {
 	color: rgb(184, 129, 157);
+}
+
+button {
+	
 }
 
 .box {
@@ -30,15 +35,27 @@ a {
 }
 
 .navigation {
-	background-color: rgb(224, 168, 187);
-	margin: 16px 0;
-	border-style: double;
-	border-color: rgba(77, 60, 69, 0.4);
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
-	align-content: center;
+	padding: 16px;
+	display: none;
+	background:rgb(250, 229, 229);
 }
+
+.navigation--open {
+	display: blck;
+}
+
+.hamburger {
+	position: absolute;
+	top:16px;
+	right: 16px;
+	border: none;
+	background: none;
+}
+
+main {
+	margin: 16px;
+}
+
 
 .section {
 	background: rgb(250, 229, 229);
@@ -115,6 +132,20 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+	.hamburger {
+		display: none;
+	}
+
+	.navigation {
+		background-color: rgb(224, 168, 187);
+		margin: 16px 0;
+		border-style: double;
+		border-color: rgba(77, 60, 69, 0.4);
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-content: center;
+	}
 	.grid {
 		display: grid;
 		grid-template-areas: "header header header" "article . aside" "footer footer footer";
@@ -134,4 +165,8 @@ a {
 		margin: 0 auto;
 		padding: 20px 30px;
 	}
-}
+
+	.klasa-z--js { 
+		background:rgb(224, 168, 187);
+	}
+
