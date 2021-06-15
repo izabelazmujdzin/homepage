@@ -8,6 +8,14 @@
 .article__third-heading {
 	color: rgb(184, 129, 157);
 }
+.article__third-heading::before {
+	content: " ";
+	display: inline-block;
+	background:rgb(87, 62, 62);
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
 
 button {
 	
@@ -46,19 +54,20 @@ button {
 
 .hamburger {
 	position: absolute;
+	right: 70%;
 	top: 16px;
 	border: none;
 	background: none;
 }
 
 main {
-	margin: 60px auto 0;
+	margin: 70px auto 0;
 }
 header {
 	background:rgba(245, 239, 242, 0.822);
 	min-height: 60px;
 	position: fixed;
-	min-width: 1000px;
+	width: 1000px;
 	top: 0; 
 }
 

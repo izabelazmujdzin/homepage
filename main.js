@@ -34,17 +34,14 @@ goodbye("Iza", age);
 
 const button = document.querySelector(".action--js");
 
-console.log(button);
-
-button.addEventListener('click' () => {
+button.addEventListener("click", () => {
 	const heading = document.querySelector(".section__header--js");
 	heading.innerHTML = `Hej! Nazywam się Iza  i mam 27 lat.`;
-	console.log();
 });
 
-const hamburger = document.querySelector('.hamburger--js');
+const hamburger = document.querySelector(".hamburger--js");
 
-hamburger.addEventListener('click', () => {
-	const nav = document.querySelector('.navigation--js');
-	nav.classList.toggle('navigation--open');
+hamburger.addEventListener("click", () => {
+	const nav = document.querySelector(".navigation--js");
+	nav.classList.toggle("navigation--open");
 });
