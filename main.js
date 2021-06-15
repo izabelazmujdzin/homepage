@@ -38,12 +38,13 @@ console.log(button);
 
 button.addEventListener('click' () => {
 	const heading = document.querySelector(".section__header--js");
-	heading.innerHTML = "Hej! Nazywam się Iza  i mam 27 lat.";
-	heading.classList.add("klasa-z--js");
+	heading.innerHTML = `Hej! Nazywam się Iza  i mam 27 lat.`;
+	console.log();
 });
 
-const hamburger = document.querySelector(".hamburger--js");
-hamburger.addEventListener('click'() => {
-    const nav = document.querySelector(.navigation--js);
-    nav.classList.toggle('navigation--open');
-})
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+	const nav = document.querySelector('.navigation--js');
+	nav.classList.toggle('navigation--open');
+});
